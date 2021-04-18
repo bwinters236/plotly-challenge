@@ -116,7 +116,8 @@ function charts(id) {
         Plotly.newPlot("pie", data_pie)
 
     });    
-}
+}                                
+
 
 
 
@@ -150,7 +151,7 @@ function init() {
         charts(data.names[0]);
 
         info(data.names[0]);
-        
+
     });
 }
 
@@ -210,4 +211,3 @@ function change(id) {
 
 // calls the init function, gets everything started and handles the orginal call 
 init();
-
